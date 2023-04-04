@@ -1,0 +1,97 @@
+.Header{
+  width: 100vw;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFFB3;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.Wrapper{
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Logo{
+  margin: 10px;
+  max-width: 150px;
+}
+
+.Logo>.LogoWrapper>img{
+  max-width: 100%;
+  border: 2px solid #4B1F21;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  border-radius: 1000px;
+}
+
+.Elements{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Elements>ul{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Elements>ul>a{
+  text-decoration: none;
+}
+
+.Elements>ul>a>li{
+  display: inline-block;
+  list-style-type: none; /* Remove bullets */
+  margin-right: 3rem;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.Elements>ul>a>li:hover{
+  text-decoration: underline;
+}
+
+.ButtonWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button{
+  background-color: #4B1F21;
+  border-radius: 5px 5px 5px 5px;
+  padding: 15px;
+}
+
+.Button>a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.Button>a>span{
+  color:white;
+}
+
+.Button>a>span>i{
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Wrapper{
+    width: 90%;
+  }
+  .Logo{
+    display: none;
+  }
+}
+

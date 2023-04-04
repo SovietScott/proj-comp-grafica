@@ -1,0 +1,28 @@
+.ContactButton{
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  z-index: 10;
+}
+
+.BgButton{
+  background-color: #25d366;
+  padding: 12px 24px;
+  border-radius: 50px;
+}
+
+.BgButton>a{
+  text-decoration: none;
+}
+
+.BgButton>a>span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 10px;
+}
+
+.BgButton>a>span>i{
+  font-size: 30px;
+}

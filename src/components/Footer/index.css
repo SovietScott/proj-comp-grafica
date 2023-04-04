@@ -1,0 +1,31 @@
+.Selection{
+
+}
+
+.Warning{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  font-size: 15px;
+}
+
+.Reference{
+  padding: 15px;
+  background-color: #D2A49A;
+  text-align: center;
+  color: #203854;
+  font-size: 15px;
+}
+
+.Reference a{
+  text-decoration: none;
+  color:#bc15cf;
+}
+
+@media only screen and (max-width: 1050px) {
+  .Warning{
+    padding: 0px 20px;
+  }
+}
