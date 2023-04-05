@@ -7,18 +7,23 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
+  backgroundPosition: 'center center',
+  backgroundRepeat: 'no-repeat',
   height: '700px'
 }
 
 const slideImages = [
   {
-    url: 'https://cdn.mos.cms.futurecdn.net/se4zHDiwnrQn5zHttUAAbK.jpg',
+    url: 'https://media.istockphoto.com/id/1280350192/pt/foto/simple-and-comfortable-couch-panorama.jpg?s=612x612&w=0&k=20&c=rFZjXDMS3-XuXSPjBH7VKWhR5XRe4UyGxHt31cUhQes=',
   },
   {
-    url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
+    url: 'https://media.istockphoto.com/id/1264073680/pt/foto/living-room-with-white-bookcase.jpg?s=612x612&w=0&k=20&c=pEc3ZtPZo2xsvnD2iXZJKr7OZzg-ZFcOjb_DqiHjwEw=',
   },
   {
-    url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    url: 'https://media.istockphoto.com/id/930527924/pt/foto/living-room-in-luxury-home.jpg?s=612x612&w=0&k=20&c=bOQcVOMXK-APvluMHzv5UXg9DeU2yeLjIgwoEeElpsA=',
+  },
+  {
+    url: 'https://media.istockphoto.com/id/1463727067/pt/foto/office-room-in-an-apartment-with-a-desk-chair-and-bookshelves.jpg?s=612x612&w=0&k=20&c=4rQBgjqaHjq6QzBTGUQVA3CHraWapbxgbK9rd2ANQl0='
   },
 ];
 

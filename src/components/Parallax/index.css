@@ -61,6 +61,14 @@
   margin-right: 15px;
 }
 
+.Services>ul>li>span{
+  animation: fadeIn 3s;
+}
+
+.Services>ul>li>span>i{
+  animation: fadeIn 6s !important;
+}
+
 ul.Methods{
   padding: 0;
   width: 85%;
@@ -69,6 +77,12 @@ ul.Methods{
   grid-template-rows: 1fr;
   grid-column-gap: 15px;
   grid-row-gap: 20px;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  animation-duration: 1s; /* the duration of the animation */
+  animation-timing-function: ease-out; /* how the animation will behave */
+  animation-delay: 0s; /* how long to delay the animation from starting */
+  animation-iteration-count: 1; /* how many times the animation will play */
+  animation-name: slideInFromLeft; /* the name of the animation we defined above */
 }
 
 .Methods>li{
@@ -112,4 +126,18 @@ ul.Methods{
   to {
     transform:rotate(360deg);
   }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }

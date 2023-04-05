@@ -8,8 +8,21 @@
   align-items: center;
   flex-flow: wrap;
   margin: 0;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  animation-duration: 1s; /* the duration of the animation */
+  animation-timing-function: ease-out; /* how the animation will behave */
+  animation-delay: 0s; /* how long to delay the animation from starting */
+  animation-iteration-count: 1; /* how many times the animation will play */
+  animation-name: slideInFromRight; /* the name of the animation we defined above */
 }
-
+@keyframes slideInFromRight {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
 figure.snip1157 {
   position: relative;
   overflow: hidden;
@@ -41,8 +54,8 @@ figure.snip1157 blockquote {
   position: relative;
   background-color: #A6C5C6;
   padding: 25px 50px 30px 50px;
-  font-size: 0.8em;
-  font-weight: 500;
+  font-size: 0.9em;
+  font-weight: bold;
   margin: 0;
   line-height: 1.6em;
   font-style: italic;
