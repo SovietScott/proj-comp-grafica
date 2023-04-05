@@ -5,6 +5,7 @@ function Contato(): JSX.Element{
   return (
     <>
       <Header/>
+      <ContactCard/>
       <ContactButton/>
       <Footer/>
     </>

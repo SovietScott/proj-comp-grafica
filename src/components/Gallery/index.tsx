@@ -14,17 +14,23 @@ const divStyle = {
 
 const slideImages = [
   {
-    url: 'https://media.istockphoto.com/id/1280350192/pt/foto/simple-and-comfortable-couch-panorama.jpg?s=612x612&w=0&k=20&c=rFZjXDMS3-XuXSPjBH7VKWhR5XRe4UyGxHt31cUhQes=',
+    url: 'https://archello.s3.eu-central-1.amazonaws.com/images/2014/03/21/6-796.1506072962.2457.jpg'
   },
   {
-    url: 'https://media.istockphoto.com/id/1264073680/pt/foto/living-room-with-white-bookcase.jpg?s=612x612&w=0&k=20&c=pEc3ZtPZo2xsvnD2iXZJKr7OZzg-ZFcOjb_DqiHjwEw=',
+    url: 'https://archello.s3.eu-central-1.amazonaws.com/images/2017/04/14/9-486.1506797066.7737.jpg'
   },
   {
-    url: 'https://media.istockphoto.com/id/930527924/pt/foto/living-room-in-luxury-home.jpg?s=612x612&w=0&k=20&c=bOQcVOMXK-APvluMHzv5UXg9DeU2yeLjIgwoEeElpsA=',
+    url: 'https://archello.s3.eu-central-1.amazonaws.com/images/2017/04/14/2-1473.1506797067.8791.jpg'
   },
   {
-    url: 'https://media.istockphoto.com/id/1463727067/pt/foto/office-room-in-an-apartment-with-a-desk-chair-and-bookshelves.jpg?s=612x612&w=0&k=20&c=4rQBgjqaHjq6QzBTGUQVA3CHraWapbxgbK9rd2ANQl0='
+    url: 'https://archello.s3.eu-central-1.amazonaws.com/images/2017/04/14/3-1293.1506797069.456.jpg'
   },
+  {
+    url: 'https://archello.s3.eu-central-1.amazonaws.com/images/2017/04/14/4-1114.1506797070.4911.jpg'
+  },
+  {
+    url: 'https://archello.s3.eu-central-1.amazonaws.com/images/2017/04/14/7-665.1506797073.6723.jpg'
+  }
 ];
 
 function Gallery(): JSX.Element {

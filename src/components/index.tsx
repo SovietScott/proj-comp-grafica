@@ -6,3 +6,4 @@ export {default as InfoCard} from './InfoCard';
 export {default as TeamPanel} from './TeamPanel';
 export {default as Gallery} from './Gallery';
 export {default as ContactCard} from './ContactCard';
+export {default as Methods} from './Methods';

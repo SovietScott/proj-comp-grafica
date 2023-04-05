@@ -1,6 +1,11 @@
 # Projeto de computação gráfica
-Este projeto se trata de uma empresa fictícia feita do zero, incluindo a logo, mascote e assets utilizados no projeto. Foi utilizado o ```Vite``` + ```React``` para o melhor desempenho e execução mais rápida. 
+Este projeto se trata de uma empresa fictícia feita do zero, incluindo a logo, mascote e assets utilizados no projeto. Foi utilizado o ```Vite``` + ```React``` para o melhor desempenho e execução mais rápida.
 
+---
+## ⚠️ As fotos utilizadas para representar o espaço são de domínio público, e as fotos e comentários apresentados como pessoas foram gerados por IA's utilizando os serviços [Unreal Person](https://www.unrealperson.com/) e [Craiyon](https://www.craiyon.com/) 
+---
+
+### Comandos úteis
 > `npm install` para instalar todos os pacotes necessários ao projeto
 
 > `npm run dev` para rodar localmente
