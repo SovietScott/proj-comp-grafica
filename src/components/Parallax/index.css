@@ -81,6 +81,17 @@ ul.Methods{
   border-radius: 50px 50px 50px 50px;
 }
 
+.Methods>li:hover{
+  transform: translate(0px, -3px);
+}
+
+.Methods>li>img:hover{
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
 .Methods>li>span{
   margin-right: 0 !important;
   margin-top: 10px;
@@ -94,6 +105,11 @@ ul.Methods{
   background-attachment: fixed;
 }
 
-@media only screen and (max-width: 800px) {
-  
+@keyframes spin {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
 }
