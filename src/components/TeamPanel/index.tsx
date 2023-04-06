@@ -16,7 +16,7 @@ function TeamPanel(): JSX.Element {
           <div className="projcard-title">Alana Alícia Carolina Rodrigues</div>
           <div className="projcard-subtitle">Especialista em ABA</div>
           <div className="projcard-bar"></div>
-          <div className="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+          <div className="projcard-description">Alana Alícia é</div>
           <div className="projcard-tagbox">
             <span className="projcard-tag">ABA</span>
             <span className="projcard-tag">Autismo</span>
@@ -33,7 +33,7 @@ function TeamPanel(): JSX.Element {
           <div className="projcard-title">Sérgio Anderson Noah da Mota</div>
           <div className="projcard-subtitle">Especialista em TCC</div>
           <div className="projcard-bar"></div>
-          <div className="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          <div className="projcard-description">Sérgio Anderson possui oito anos de experiência profissional e atua utilizando a terapia cognitiva comportamental (TCC), abordagem específica para quem gostaria de trabalhar seus traumas de forma assertiva e diretiva.</div>
           <div className="projcard-tagbox">
             <span className="projcard-tag">Psicologia do Esporte</span>
             <span className="projcard-tag">Psicologia Hospitalar</span>
@@ -49,7 +49,7 @@ function TeamPanel(): JSX.Element {
           <div className="projcard-title">Isis Esther Dias</div>
           <div className="projcard-subtitle">Especialista em Psicanálise</div>
           <div className="projcard-bar"></div>
-          <div className="projcard-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</div>
+          <div className="projcard-description">Isis Dias é psicanalista a 10 anos. A Psicanálise, uma das abordagens mais antigas da profissão foi criada por Freud e permanece até os dias de hoje sendo uma das abordagens mais conhecidas. Por meio da análise de um psicanalista você pode tratar diversos problemas de cunho emocional</div>
           <div className="projcard-tagbox">
             <span className="projcard-tag">Psicologia Organizacional</span>
             <span className="projcard-tag">Psicologia do Trabalho</span>
@@ -66,7 +66,7 @@ function TeamPanel(): JSX.Element {
           <div className="projcard-title">Renato Arthur Freitas</div>
           <div className="projcard-subtitle">Psiquiatra e Psicólogo</div>
           <div className="projcard-bar"></div>
-          <div className="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+          <div className="projcard-description">Renato Arthur é </div>
           <div className="projcard-tagbox">
             <span className="projcard-tag">Psiquiatria Clínica</span>
             <span className="projcard-tag">Psiquiatria Forense e Pericial</span>
