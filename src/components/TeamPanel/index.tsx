@@ -16,7 +16,7 @@ function TeamPanel(): JSX.Element {
           <div className="projcard-title">Alana Alícia Carolina Rodrigues</div>
           <div className="projcard-subtitle">Especialista em ABA</div>
           <div className="projcard-bar"></div>
-          <div className="projcard-description">Alana Alícia é</div>
+          <div className="projcard-description">Alana Alícia possui seis anos de experiência profissinal e atua principalmente com Análise do comportamento aplicada (ABA), o ABA trabalha no reforço dos comportamentos positivos e no ensino intensivo e individualizado das habilidades necessárias para que a criança autista possa adquirir independência e a melhor qualidade de vida possível.</div>
           <div className="projcard-tagbox">
             <span className="projcard-tag">ABA</span>
             <span className="projcard-tag">Autismo</span>
@@ -49,7 +49,7 @@ function TeamPanel(): JSX.Element {
           <div className="projcard-title">Isis Esther Dias</div>
           <div className="projcard-subtitle">Especialista em Psicanálise</div>
           <div className="projcard-bar"></div>
-          <div className="projcard-description">Isis Dias é psicanalista a 10 anos. A Psicanálise, uma das abordagens mais antigas da profissão foi criada por Freud e permanece até os dias de hoje sendo uma das abordagens mais conhecidas. Por meio da análise de um psicanalista você pode tratar diversos problemas de cunho emocional</div>
+          <div className="projcard-description">Isis Dias é psicanalista a dez anos. A Psicanálise, uma das abordagens mais antigas da profissão foi criada por Freud e permanece até os dias de hoje sendo uma das abordagens mais conhecidas. Por meio da análise de um psicanalista você pode tratar diversos problemas de cunho emocional.</div>
           <div className="projcard-tagbox">
             <span className="projcard-tag">Psicologia Organizacional</span>
             <span className="projcard-tag">Psicologia do Trabalho</span>
@@ -66,7 +66,7 @@ function TeamPanel(): JSX.Element {
           <div className="projcard-title">Renato Arthur Freitas</div>
           <div className="projcard-subtitle">Psiquiatra e Psicólogo</div>
           <div className="projcard-bar"></div>
-          <div className="projcard-description">Renato Arthur é </div>
+          <div className="projcard-description">Renato Arthur possui doze anos de experiência, atuando tanto com a psiquiatria clínica e forense quanto com a neuropsicologia. É o nosso psiquiatra responsável por processos que envolvem o tratamento de vícios e apoio às complicações decorrentes desse.</div>
           <div className="projcard-tagbox">
             <span className="projcard-tag">Psiquiatria Clínica</span>
             <span className="projcard-tag">Psiquiatria Forense e Pericial</span>

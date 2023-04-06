@@ -12,4 +12,4 @@ Este projeto se trata de uma ***empresa fictícia*** feita do zero, incluindo a 
 
 > `npm run build` para criar a pasta com o deploy &rarr; `dist`
 
-## Link para o site em deploy: https://642df7d15d2d931669e09fcc--admirable-smakager-df4889.netlify.app/
+## Link para o site em deploy: https://main--admirable-smakager-df4889.netlify.app/

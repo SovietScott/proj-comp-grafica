@@ -146,7 +146,7 @@ function Methods(): JSX.Element {
           <div className="article-body">
             <h2>Psicologia comunitária</h2>
             <p>
-            Vertente da psicologia social, e tem como objetivo solucionar problemas sociais pertencentes a uma comunidade. A psicologia comunitária tem como preocupação a forma que os indivíduos se relacionam com a sociedade.
+            Vertente da psicologia social que tem como objetivo solucionar problemas sociais pertencentes a uma comunidade. A psicologia comunitária tem como preocupação a forma que os indivíduos se relacionam com a sociedade.
             </p>
             <a href="https://www.portalseppmt.com.br/o-que-e-psicologia-comunitaria/" className="read-more">
             Leia mais <span className="sr-only"></span>
