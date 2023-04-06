@@ -19,7 +19,6 @@ function TeamPanel(): JSX.Element {
           <div className="projcard-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
           <div className="projcard-tagbox">
             <span className="projcard-tag">ABA</span>
-            <span className="projcard-tag">Psicodrama</span>
             <span className="projcard-tag">Autismo</span>
             <span className="projcard-tag">Psicopedagogia</span>
           </div>
@@ -48,11 +47,12 @@ function TeamPanel(): JSX.Element {
         <img className="projcard-img" src={psico3} />
         <div className="projcard-textbox">
           <div className="projcard-title">Isis Esther Dias</div>
-          <div className="projcard-subtitle">Especialista em Psicanálise e Gestalt</div>
+          <div className="projcard-subtitle">Especialista em Psicanálise</div>
           <div className="projcard-bar"></div>
           <div className="projcard-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</div>
           <div className="projcard-tagbox">
-            <span className="projcard-tag">Psicologia Organizacional e do Trabalho</span>
+            <span className="projcard-tag">Psicologia Organizacional</span>
+            <span className="projcard-tag">Psicologia do Trabalho</span>
             <span className="projcard-tag">Psicologia Social</span>
           </div>
         </div>

@@ -9,8 +9,10 @@ function ContactCard(): JSX.Element {
             <div className="address details">
               <i className="fas fa-map-marker-alt"></i>
               <div className="topic">Endereço</div>
-              <div className="text-one">Surkhet, NP12</div>
-              <div className="text-two">Birendranagar 06</div>
+              <div className="text-one">73011-140</div>
+              <div className="text-two">Quadra 15 AR 02</div>
+              <div className="text-two">Sobradinho</div>
+              <div className="text-two">Brasília - DF</div>
             </div>
             <div className="phone details">
               <i className="fas fa-phone-alt"></i>
