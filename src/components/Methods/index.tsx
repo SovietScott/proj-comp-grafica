@@ -122,14 +122,14 @@ function Methods(): JSX.Element {
       <article className='article seven'>
         <div className="article-wrapper">
           <figure>
-            <img src="https://unifor.br/documents/392178/2933337/curso-psicologia-juridica-direito-banner-cabecalho.jpg/3952270b-cbaf-9ff5-94cd-7023dba3580c?t=1560542112043" alt="" />
+            <img src="https://media.discordapp.net/attachments/960010455450013746/1093739712059023542/avaliaC3A7C3A3o-psicologica-braganC3A7a.png" alt="" />
           </figure>
           <div className="article-body">
-            <h2>Psicologia jurídica</h2>
+            <h2>Avaliação Psicológica</h2>
             <p>
-            Aplicação dos conhecimentos psicológicos aos assuntos relacionados ao direito, principalmente quanto à saúde mental, quanto aos estudos sócio-jurídicos dos crimes e quanto a personalidade da pessoa natural e seus embates subjectivos
+            A Avaliação Psicológica é um processo técnico e científico realizado com pessoas ou grupos de pessoas que, de acordo com cada área do conhecimento e com as demandas exigidas, requer metodologias específicas.
             </p>
-            <a href="https://blog.ipog.edu.br/desenvolvimento-do-potencial-humano/psicologia-juridica/" className="read-more">
+            <a href="https://site.cfp.org.br/wp-content/uploads/2022/08/cartilha_avaliacao_psicologica1.pdf" className="read-more">
             Leia mais <span className="sr-only"></span>
               <svg xmlns="http://www.w3.org/2000/svg" className="icon" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
