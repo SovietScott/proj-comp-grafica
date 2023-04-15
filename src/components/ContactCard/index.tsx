@@ -41,7 +41,7 @@ function ContactCard(): JSX.Element {
                 <input type='textarea' placeholder='Digite sua mensagem'/>
               </div>
               <div className="button">
-                <input type="button" value="Send Now" />
+                <input type="button" value="Enviar" />
               </div>
             </form>
           </div>
