@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import {Header, ContactButton, Footer, ContactCard} from '../components';
 
 function Contato(): JSX.Element{

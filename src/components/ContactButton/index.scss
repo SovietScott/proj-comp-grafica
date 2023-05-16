@@ -1,0 +1,51 @@
+.ContactButton {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  z-index: 10;
+
+  .BgButton {
+    background-color: #25d366;
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    a {
+      text-decoration: none;
+
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-right: 10px;
+
+        i {
+          font-size: 30px;
+        }
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width : 500px) {
+  .ContactButton {
+    .BgButton {
+      a {
+
+        span {
+          margin: 0;
+
+          i {
+            font-size: 30px;
+          }
+        }
+
+        span:first-child {
+          display: none;
+        }
+
+      }
+    }
+  }
+}

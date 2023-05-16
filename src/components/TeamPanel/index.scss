@@ -212,6 +212,19 @@
   animation-name: slideInFromRight; /* the name of the animation we defined above */
 }
 
+@media screen and (max-width : 880px) {
+ 
+}
+
+@media screen and (max-width : 1180px) {
+  .projcard-description{
+    overflow: visible;
+  }
+  .projcard-tagbox{
+    display: none;
+  }
+}
+
 @keyframes slideInFromLeft {
   0% {
       transform: translateX(-100%);

@@ -1,4 +1,4 @@
-import './index.css'
+import './index.scss'
 
 function ContactCard(): JSX.Element {
   return (

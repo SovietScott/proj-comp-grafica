@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import {Header, ContactButton, Footer, Methods} from '../components';
 
 function Atuacao(): JSX.Element{

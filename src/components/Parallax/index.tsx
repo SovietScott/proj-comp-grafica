@@ -1,12 +1,6 @@
-import './index.css'
-import sofa from '../../assets/sofa.png';
-import mandala from '../../assets/mandala.png'; 
-import mask from '../../assets/theater.png'; 
-import tree from '../../assets/nature.png'; 
-import rat from '../../assets/rato.png'; 
-import brain from '../../assets/brain.png'; 
+import './index.scss'
 
-function Parallax(): JSX.Element {
+function Parallax(props : {List : {name : string, url : string;}[]}): JSX.Element {
   return (
     <div className='Parallax'>
       <div className='Solver'>
@@ -31,30 +25,14 @@ function Parallax(): JSX.Element {
             </ul>
             <h1>Abordagens Utilizadas</h1>
             <ul className="Methods">
-              <li>
-                <span>Psicanálise</span>
-                <img src={sofa}></img>
-              </li>
-              <li>
-                <span>Análise do Comportamento</span>
-                <img src={rat}></img>
-              </li>
-              <li>
-                <span>TCC</span>
-                <img src={brain}></img>
-              </li>
-              <li>
-                <span>Gestalt</span>
-                <img src={tree}></img>
-              </li>
-              <li>
-                <span>Analista <br></br> Junguiana</span>
-                <img src={mandala}></img>
-              </li>
-              <li>
-                <span>Psicodrama</span>
-                <img src={mask}></img>
-              </li>
+              {props.List.map(({name, url}) => {
+                return (
+                  <li>
+                    <span>{name}</span>
+                    <img src={url}></img>
+                  </li>
+                )
+              })}
             </ul>
           </div>
         </div>

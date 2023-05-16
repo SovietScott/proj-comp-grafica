@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import {Header, ContactButton, Footer, Gallery} from '../components';
 
 function Espaco(): JSX.Element {

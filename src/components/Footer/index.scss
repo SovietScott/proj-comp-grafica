@@ -1,8 +1,4 @@
-.Selection{
-
-}
-
-.Warning{
+.Warning {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,21 +7,21 @@
   font-size: 15px;
 }
 
-.Reference{
+.Reference {
   padding: 15px;
   background-color: #D2A49A;
   text-align: center;
   color: #203854;
   font-size: 15px;
+
+  a {
+    text-decoration: none;
+    color: #bc15cf;
+  }
 }
 
-.Reference a{
-  text-decoration: none;
-  color:#bc15cf;
-}
-
-@media only screen and (max-width: 1050px) {
-  .Warning{
+@media only screen and (max-width: 1062px) {
+  .Warning {
     padding: 0px 20px;
   }
 }

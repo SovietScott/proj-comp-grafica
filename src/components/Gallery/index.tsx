@@ -1,4 +1,4 @@
-import './index.css'
+import './index.scss'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 
